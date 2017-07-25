@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cg.factornot.GameActivity">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:padding="3dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.0">
+
+
+   <TextView
+       android:id="@+id/score_text"
+       android:layout_width="120dp"
+       android:layout_height="60dp"
+       android:layout_alignParentTop="true"
+       android:text="Score: "
+       android:textSize="37sp"
+       android:textStyle="bold"
+       android:textColor="@color/Black"/>
+
+       <TextView
+           android:id="@+id/score"
+           android:layout_width="75dp"
+           android:layout_height="50dp"
+           android:layout_marginStart="230dp"
+           android:text="0"
+           android:textStyle="bold"
+           android:textSize="40sp"
+           android:textColor="@color/DarkRed"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/factbutton"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:text="FACT"
+        android:background="@drawable/fact_button"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <Button
+        android:id="@+id/notfact_button"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:text="NOT A FACT"
+        android:background="@drawable/notfact_button"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <TextView
+        android:id="@+id/fact_text"
+        android:layout_width="378dp"
+        android:layout_height="145dp"
+        android:text="dgdsgdsgdkjjdnvndlssssssss"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.199"
+        android:layout_marginLeft="-9dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/fact_image"
+        android:layout_width="369dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/factcannon2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.605"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
