@@ -32,7 +32,7 @@ public class QuestionList {
             "The world's longest musical piece lasts 639 years.",
             "90% of the world’s population lives in the Northern Hemisphere.",
             "You're more likely to become the President than you are to win the lottery",
-
+//27
             "Hair and nails continue to grow even after you've died.",
             "Men think about sex every 7 seconds.",
             "Penguins mate for life.",
@@ -50,7 +50,7 @@ public class QuestionList {
             "Vaccines cause autism",
             "A person swallows an average of eight spiders per year while sleeping",
             "Natural sugar like honey is better for you than processed sugar.",
-            "Sugar is as addictive as heroin.",
+            "Sugar   is as addictive as heroin.",
             "Sugar causes hyperactivity in children.",
             "Humans can't grow new brain cells",
             "Carbonated water isn't as hydrating as flat water.",
